@@ -53,7 +53,7 @@ class Currency_check ( ):
         try:
             # подгтовка данных пользователя
 
-            self.password = input ( "vvedi password :" )  # 'bhgizldukaesemdk'
+            self.password = input ( "vvedi password :" )  # ''
             server = smtplib.SMTP ( 'smtp.gmail.com:587' )
 
             # Формируем тело письма
